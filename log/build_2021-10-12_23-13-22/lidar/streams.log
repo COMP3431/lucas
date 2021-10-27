@@ -1,0 +1,12 @@
+[0.024s] Invoking command in '/home/rsa2021/starter_code/build/lidar': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rsa2021/starter_code/build/lidar -- -j4 -l4
+[0.070s] [35m[1mScanning dependencies of target lidar[0m
+[0.096s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar_main.cpp.o[0m
+[1.258s] [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:[m[K In member function ‘[01m[Kvoid PointCloud::point_callback()[m[K’:
+[1.258s] [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:53:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[1.258s]    53 |         publisher_->publish[34m[K([m[Kthis->convert(ps)[01;31m[K;[m[K
+[1.258s]       |                            [34m[K~[m[K                 [01;31m[K^[m[K
+[1.258s]       |                                              [32m[K)[m[K
+[2.593s] make[2]: *** [CMakeFiles/lidar.dir/build.make:63: CMakeFiles/lidar.dir/src/lidar_main.cpp.o] Error 1
+[2.595s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lidar.dir/all] Error 2
+[2.595s] make: *** [Makefile:141: all] Error 2
+[2.598s] Invoked command in '/home/rsa2021/starter_code/build/lidar' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rsa2021/starter_code/build/lidar -- -j4 -l4

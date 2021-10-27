@@ -1,0 +1,44 @@
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/rsa2021/starter_code/src/lidar/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rsa2021/starter_code/build/lidar
+[35m[1mScanning dependencies of target lidar[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable lidar[0m
+[100%] Built target lidar
+-- Install configuration: ""
+-- Installing: /home/rsa2021/starter_code/install/lidar/lib/lidar/lidar
+-- Set runtime path of "/home/rsa2021/starter_code/install/lidar/lib/lidar/lidar" to ""
+-- Installing: /home/rsa2021/starter_code/install/lidar/share/ament_index/resource_index/package_run_dependencies/lidar
+-- Installing: /home/rsa2021/starter_code/install/lidar/share/ament_index/resource_index/parent_prefix_path/lidar
+-- Up-to-date: /home/rsa2021/starter_code/install/lidar/share/lidar/environment/ament_prefix_path.sh
+-- Installing: /home/rsa2021/starter_code/install/lidar/share/lidar/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rsa2021/starter_code/install/lidar/share/lidar/environment/path.sh
+-- Installing: /home/rsa2021/starter_code/install/lidar/share/lidar/environment/path.dsv
+-- Up-to-date: /home/rsa2021/starter_code/install/lidar/share/lidar/local_setup.bash
+-- Up-to-date: /home/rsa2021/starter_code/install/lidar/share/lidar/local_setup.sh
+-- Up-to-date: /home/rsa2021/starter_code/install/lidar/share/lidar/local_setup.zsh
+-- Installing: /home/rsa2021/starter_code/install/lidar/share/lidar/local_setup.dsv
+-- Installing: /home/rsa2021/starter_code/install/lidar/share/lidar/package.dsv
+-- Up-to-date: /home/rsa2021/starter_code/install/lidar/share/ament_index/resource_index/packages/lidar
+-- Up-to-date: /home/rsa2021/starter_code/install/lidar/share/lidar/cmake/lidarConfig.cmake
+-- Up-to-date: /home/rsa2021/starter_code/install/lidar/share/lidar/cmake/lidarConfig-version.cmake
+-- Installing: /home/rsa2021/starter_code/install/lidar/share/lidar/package.xml

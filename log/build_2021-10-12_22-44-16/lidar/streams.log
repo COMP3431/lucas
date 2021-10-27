@@ -1,0 +1,32 @@
+[0.025s] Invoking command in '/home/rsa2021/starter_code/build/lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rsa2021/starter_code/build/lidar -- -j4 -l4
+[0.057s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.080s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.390s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.430s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.434s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.555s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.602s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.604s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.736s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.778s] CMake Error at CMakeLists.txt:22 (find_package):
+[0.779s]   By not providing "Findvisualizations_msgs.cmake" in CMAKE_MODULE_PATH this
+[0.779s]   project has asked CMake to find a package configuration file provided by
+[0.779s]   "visualizations_msgs", but CMake did not find one.
+[0.779s] 
+[0.779s]   Could not find a package configuration file provided by
+[0.779s]   "visualizations_msgs" with any of the following names:
+[0.779s] 
+[0.779s]     visualizations_msgsConfig.cmake
+[0.779s]     visualizations_msgs-config.cmake
+[0.779s] 
+[0.779s]   Add the installation prefix of "visualizations_msgs" to CMAKE_PREFIX_PATH
+[0.779s]   or set "visualizations_msgs_DIR" to a directory containing one of the above
+[0.779s]   files.  If "visualizations_msgs" provides a separate development package or
+[0.779s]   SDK, be sure it has been installed.
+[0.779s] 
+[0.779s] 
+[0.781s] -- Configuring incomplete, errors occurred!
+[0.781s] See also "/home/rsa2021/starter_code/build/lidar/CMakeFiles/CMakeOutput.log".
+[0.781s] See also "/home/rsa2021/starter_code/build/lidar/CMakeFiles/CMakeError.log".
+[0.788s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.789s] Invoked command in '/home/rsa2021/starter_code/build/lidar' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rsa2021/starter_code/build/lidar -- -j4 -l4

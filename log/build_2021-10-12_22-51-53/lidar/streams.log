@@ -1,0 +1,142 @@
+[0.039s] Invoking command in '/home/rsa2021/starter_code/build/lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rsa2021/starter_code/build/lidar -- -j4 -l4
+[0.094s] [35m[1mScanning dependencies of target lidar[0m
+[0.131s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar_main.cpp.o[0m
+[0.250s] [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:14:25:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.251s]    14 |     PointCloud() : Node([01;35m[K'lidar_node'[m[K) {
+[0.251s]       |                         [01;35m[K^~~~~~~~~~~~[m[K
+[1.484s] [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:7:36:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ is not a namespace-name
+[1.484s]     7 | using namespace std::placeholders::[01;31m[K_1[m[K;
+[1.484s]       |                                    [01;31m[K^~[m[K
+[1.499s] [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:22:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMarker[m[K’ in namespace ‘[01m[Kvisualization_msgs[m[K’ does not name a type
+[1.500s]    22 |     visualization_msgs::[01;31m[KMarker[m[K convert(geometry_msgs::msg::PointStamped & ps) {
+[1.500s]       |                         [01;31m[K^~~~~~[m[K
+[1.500s] [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:55:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[1.500s]    55 | }
+[1.500s]       |  [01;31m[K^[m[K
+[1.500s]       |  [32m[K;[m[K
+[1.500s] [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:[m[K In constructor ‘[01m[KPointCloud::PointCloud()[m[K’:
+[1.500s] [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:14:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node(int)[m[K’
+[1.500s]    14 |     PointCloud() : Node('lidar_node'[01;31m[K)[m[K {
+[1.500s]       |                                     [01;31m[K^[m[K
+[1.501s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.501s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.501s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.501s]                  from [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:2[m[K:
+[1.501s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1190:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+[1.501s]  1190 |   [01;36m[KNode[m[K(
+[1.501s]       |   [01;36m[K^~~~[m[K
+[1.501s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1190:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.501s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:98:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+[1.501s]    98 |   explicit [01;36m[KNode[m[K(
+[1.501s]       |            [01;36m[K^~~~[m[K
+[1.501s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:98:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[1.501s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:86:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+[1.501s]    86 |   explicit [01;36m[KNode[m[K(
+[1.501s]       |            [01;36m[K^~~~[m[K
+[1.501s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:87:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+[1.502s]    87 |     [01;36m[Kconst std::string & node_name[m[K,
+[1.502s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[1.507s] [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:15:79:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Publisher<geometry_msgs::msg::PointStamped_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::PointStamped_<std::allocator<void> > > >[m[K’} and ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> > >[m[K’)
+[1.507s]    15 | std_msgs::msg::String>("topic", 10[01;31m[K)[m[K;
+[1.508s]       |                                   [01;31m[K^[m[K
+[1.508s] 
+[1.508s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[1.508s]                  from [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:1[m[K:
+[1.508s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:309:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Publisher<geometry_msgs::msg::PointStamped_<std::allocator<void> > >][m[K’
+[1.508s]   309 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[1.508s]       |                   [01;36m[K^~~~~~~~[m[K
+[1.508s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:309:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> > >[m[K’ to ‘[01m[Kconst std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::PointStamped_<std::allocator<void> > > >&[m[K’
+[1.508s]   309 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[1.508s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[1.508s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:313:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<geometry_msgs::msg::PointStamped_<std::allocator<void> > >][m[K’
+[1.508s]   313 |  [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[1.508s]       |  [01;36m[K^~~~~~~~[m[K
+[1.509s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:313:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.509s] /usr/include/c++/9/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> > >&; _Tp = rclcpp::Publisher<geometry_msgs::msg::PointStamped_<std::allocator<void> > >][m[K’:
+[1.509s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:313:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::PointStamped_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::PointStamped_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> >][m[K’
+[1.509s] [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:15:79:[m[K   required from here
+[1.509s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:111:8:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::PointStamped_<std::allocator<void> > > >&>[m[K’
+[1.509s]   111 |  using [01;31m[K_Assignable[m[K = typename enable_if<
+[1.509s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[1.509s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:324:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<geometry_msgs::msg::PointStamped_<std::allocator<void> > >][m[K’
+[1.509s]   324 |  [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[1.509s]       |  [01;36m[K^~~~~~~~[m[K
+[1.509s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:324:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.509s] [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:15:79:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[1.509s]    15 | std_msgs::msg::String>("topic", 10[01;36m[K)[m[K;
+[1.509s]       |                                   [01;36m[K^[m[K
+[1.509s] 
+[1.509s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[1.509s]                  from [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:1[m[K:
+[1.509s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:333:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Publisher<geometry_msgs::msg::PointStamped_<std::allocator<void> > >][m[K’
+[1.509s]   333 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[1.510s]       |       [01;36m[K^~~~~~~~[m[K
+[1.510s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:333:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> > >[m[K’ to ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::PointStamped_<std::allocator<void> > > >&&[m[K’
+[1.510s]   333 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[1.510s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[1.510s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:341:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<geometry_msgs::msg::PointStamped_<std::allocator<void> > >][m[K’
+[1.510s]   341 |  [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[1.510s]       |  [01;36m[K^~~~~~~~[m[K
+[1.510s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:341:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.510s] /usr/include/c++/9/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> > >; _Tp = rclcpp::Publisher<geometry_msgs::msg::PointStamped_<std::allocator<void> > >][m[K’:
+[1.510s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:341:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::PointStamped_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::PointStamped_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> >][m[K’
+[1.510s] [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:15:79:[m[K   required from here
+[1.511s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:111:8:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::PointStamped_<std::allocator<void> > > >&>[m[K’
+[1.511s]   111 |  using [01;31m[K_Assignable[m[K = typename enable_if<
+[1.511s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[1.511s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:349:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Publisher<geometry_msgs::msg::PointStamped_<std::allocator<void> > >][m[K’
+[1.511s]   349 |  [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[1.511s]       |  [01;36m[K^~~~~~~~[m[K
+[1.511s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:349:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.511s] [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:15:79:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[1.511s]    15 | std_msgs::msg::String>("topic", 10[01;36m[K)[m[K;
+[1.511s]       |                                   [01;36m[K^[m[K
+[1.511s] 
+[1.511s] [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:16:66:[m[K [01;31m[Kerror: [m[K‘[01m[KPointStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::PointStamped[m[K’?
+[1.511s]    16 | reate_subscription<geometry_msgs::[01;31m[KPointStamped[m[K>("topic", 10, [this](geometry_msgs::msg::PointStamped::SharePtr ps) {
+[1.511s]       |                                   [01;31m[K^~~~~~~~~~~~[m[K
+[1.511s] 
+[1.511s] In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/point_stamped.hpp:7[m[K,
+[1.511s]                  from [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:4[m[K:
+[1.511s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/point_stamped__struct.hpp:134:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::PointStamped[m[K’ declared here
+[1.511s]   134 | using [01;36m[KPointStamped[m[K =
+[1.512s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[1.512s] [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:16:66:[m[K [01;31m[Kerror: [m[K‘[01m[KPointStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::PointStamped[m[K’?
+[1.512s]    16 | reate_subscription<geometry_msgs::[01;31m[KPointStamped[m[K>("topic", 10, [this](geometry_msgs::msg::PointStamped::SharePtr ps) {
+[1.512s]       |                                   [01;31m[K^~~~~~~~~~~~[m[K
+[1.512s] 
+[1.512s] In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/point_stamped.hpp:7[m[K,
+[1.512s]                  from [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:4[m[K:
+[1.512s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/point_stamped__struct.hpp:134:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::PointStamped[m[K’ declared here
+[1.512s]   134 | using [01;36m[KPointStamped[m[K =
+[1.512s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[1.512s] [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:16:134:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::msg::PointStamped<std::allocator<void> >::SharePtr[m[K’ has not been declared
+[1.512s]    16 | is](geometry_msgs::msg::PointStamped::[01;31m[KSharePtr[m[K ps) {
+[1.512s]       |                                       [01;31m[K^~~~~~~~[m[K
+[1.512s] 
+[1.512s] [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:[m[K In lambda function:
+[1.512s] [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:17:46:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+[1.512s]    17 |                 publisher_->publish(convert(*[01;31m[Kps[m[K))
+[1.513s]       |                                              [01;31m[K^~[m[K
+[1.513s] [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:17:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kconvert[m[K’ was not declared in this scope
+[1.513s]    17 |                 publisher_->publish([01;31m[Kconvert[m[K(*ps))
+[1.513s]       |                                     [01;31m[K^~~~~~~[m[K
+[1.513s] [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:[m[K In constructor ‘[01m[KPointCloud::PointCloud()[m[K’:
+[1.513s] [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:18:20:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+[1.513s]    18 |                 }, [01;31m[K_1[m[K);
+[1.513s]       |                    [01;31m[K^~[m[K
+[1.513s]       |                    [32m[Kstd::placeholders::_1[m[K
+[1.513s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/context.hpp:19[m[K,
+[1.513s]                  from [01m[K/opt/ros/foxy/include/rclcpp/contexts/default_context.hpp:18[m[K,
+[1.513s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:32[m[K,
+[1.513s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.513s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.513s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.513s]                  from [01m[K/home/rsa2021/starter_code/src/lidar/src/lidar_main.cpp:2[m[K:
+[1.513s] [01m[K/usr/include/c++/9/functional:211:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+[1.514s]   211 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[1.514s]       |                                  [01;36m[K^~[m[K
+[2.387s] make[2]: *** [CMakeFiles/lidar.dir/build.make:63: CMakeFiles/lidar.dir/src/lidar_main.cpp.o] Error 1
+[2.387s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lidar.dir/all] Error 2
+[2.387s] make: *** [Makefile:141: all] Error 2
+[2.390s] Invoked command in '/home/rsa2021/starter_code/build/lidar' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rsa2021/starter_code/build/lidar -- -j4 -l4

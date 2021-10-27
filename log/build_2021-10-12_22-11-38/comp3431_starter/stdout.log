@@ -1,0 +1,19 @@
+[100%] Built target wallFollower
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/ament_index/resource_index/package_run_dependencies/comp3431_starter
+-- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/ament_index/resource_index/parent_prefix_path/comp3431_starter
+-- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/environment/path.sh
+-- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/environment/path.dsv
+-- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/local_setup.bash
+-- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/local_setup.sh
+-- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/local_setup.zsh
+-- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/local_setup.dsv
+-- Symlinking: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/package.dsv
+-- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/ament_index/resource_index/packages/comp3431_starter
+-- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/cmake/comp3431_starterConfig.cmake
+-- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/cmake/comp3431_starterConfig-version.cmake
+-- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/package.xml
+-- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/lib/comp3431_starter/wallFollower

@@ -1,0 +1,26 @@
+[0.021s] Invoking command in '/home/rsa2021/starter_code/build/lidar': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rsa2021/starter_code/build/lidar -- -j4 -l4
+[0.062s] [35m[1mScanning dependencies of target lidar[0m
+[0.084s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar_main.cpp.o[0m
+[4.439s] [100%] [32m[1mLinking CXX executable lidar[0m
+[4.630s] [100%] Built target lidar
+[4.640s] Invoked command in '/home/rsa2021/starter_code/build/lidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rsa2021/starter_code/build/lidar -- -j4 -l4
+[4.670s] Invoking command in '/home/rsa2021/starter_code/build/lidar': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/rsa2021/starter_code/build/lidar
+[4.677s] -- Install configuration: ""
+[4.678s] -- Installing: /home/rsa2021/starter_code/install/lidar/lib/lidar/lidar
+[4.680s] -- Set runtime path of "/home/rsa2021/starter_code/install/lidar/lib/lidar/lidar" to ""
+[4.680s] -- Up-to-date: /home/rsa2021/starter_code/install/lidar/share/ament_index/resource_index/package_run_dependencies/lidar
+[4.680s] -- Up-to-date: /home/rsa2021/starter_code/install/lidar/share/ament_index/resource_index/parent_prefix_path/lidar
+[4.680s] -- Up-to-date: /home/rsa2021/starter_code/install/lidar/share/lidar/environment/ament_prefix_path.sh
+[4.680s] -- Up-to-date: /home/rsa2021/starter_code/install/lidar/share/lidar/environment/ament_prefix_path.dsv
+[4.680s] -- Up-to-date: /home/rsa2021/starter_code/install/lidar/share/lidar/environment/path.sh
+[4.680s] -- Up-to-date: /home/rsa2021/starter_code/install/lidar/share/lidar/environment/path.dsv
+[4.681s] -- Up-to-date: /home/rsa2021/starter_code/install/lidar/share/lidar/local_setup.bash
+[4.681s] -- Up-to-date: /home/rsa2021/starter_code/install/lidar/share/lidar/local_setup.sh
+[4.681s] -- Up-to-date: /home/rsa2021/starter_code/install/lidar/share/lidar/local_setup.zsh
+[4.681s] -- Up-to-date: /home/rsa2021/starter_code/install/lidar/share/lidar/local_setup.dsv
+[4.681s] -- Installing: /home/rsa2021/starter_code/install/lidar/share/lidar/package.dsv
+[4.681s] -- Up-to-date: /home/rsa2021/starter_code/install/lidar/share/ament_index/resource_index/packages/lidar
+[4.681s] -- Up-to-date: /home/rsa2021/starter_code/install/lidar/share/lidar/cmake/lidarConfig.cmake
+[4.681s] -- Up-to-date: /home/rsa2021/starter_code/install/lidar/share/lidar/cmake/lidarConfig-version.cmake
+[4.681s] -- Up-to-date: /home/rsa2021/starter_code/install/lidar/share/lidar/package.xml
+[4.683s] Invoked command in '/home/rsa2021/starter_code/build/lidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/rsa2021/starter_code/build/lidar

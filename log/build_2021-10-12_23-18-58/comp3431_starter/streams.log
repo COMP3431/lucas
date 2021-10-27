@@ -1,0 +1,23 @@
+[0.022s] Invoking command in '/home/rsa2021/starter_code/build/comp3431_starter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rsa2021/starter_code/build/comp3431_starter -- -j4 -l4
+[0.091s] [100%] Built target wallFollower
+[0.102s] Invoked command in '/home/rsa2021/starter_code/build/comp3431_starter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rsa2021/starter_code/build/comp3431_starter -- -j4 -l4
+[0.153s] Invoking command in '/home/rsa2021/starter_code/build/comp3431_starter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/rsa2021/starter_code/build/comp3431_starter
+[0.162s] -- Install configuration: ""
+[0.162s] -- Execute custom install script
+[0.163s] -- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/ament_index/resource_index/package_run_dependencies/comp3431_starter
+[0.163s] -- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/ament_index/resource_index/parent_prefix_path/comp3431_starter
+[0.163s] -- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/environment/ament_prefix_path.sh
+[0.164s] -- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/environment/ament_prefix_path.dsv
+[0.164s] -- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/environment/path.sh
+[0.164s] -- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/environment/path.dsv
+[0.165s] -- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/local_setup.bash
+[0.165s] -- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/local_setup.sh
+[0.166s] -- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/local_setup.zsh
+[0.166s] -- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/local_setup.dsv
+[0.166s] -- Symlinking: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/package.dsv
+[0.177s] -- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/ament_index/resource_index/packages/comp3431_starter
+[0.177s] -- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/cmake/comp3431_starterConfig.cmake
+[0.178s] -- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/cmake/comp3431_starterConfig-version.cmake
+[0.178s] -- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/share/comp3431_starter/package.xml
+[0.178s] -- Up-to-date symlink: /home/rsa2021/starter_code/install/comp3431_starter/lib/comp3431_starter/wallFollower
+[0.181s] Invoked command in '/home/rsa2021/starter_code/build/comp3431_starter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/rsa2021/starter_code/build/comp3431_starter
