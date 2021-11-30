@@ -8,6 +8,7 @@ from cv_bridge.core import CvBridgeError
 from rclpy.node import Node
 from sensor_msgs.msg import Image
 
+
 HALF = 0.5
 GREEN = (0, 255, 0)
 
@@ -31,15 +32,20 @@ def rect2centerline(rect):
     return cl
 
 # Define a function to show the image in an OpenCV Window
-def show_image(img):
-    cv2.imshow("Image Window", img)
+def show_image(img, window_name=None):
+    if window_name is None:
+        window_name = "Image Window"
+    cv2.imshow(img, window_name)
     cv2.waitKey(3)
 
-def process_image(cv_image):
-    resized = cv2.resize(cv_image, None, fx=HALF, fy=HALF)
+def filter_image(cv_image):
+    grey = cv2.cvtColor(cv_image, cv2.COLOR_BGR2GRAY)
+    resized = cv2.resize(grey, None, fx=HALF, fy=HALF)
     blurred = cv2.GaussianBlur(resized, (5, 5), 0)
-    edges = cv2.Canny(blurred, threshold1=30, threshold2=100)
-    return edges
+    return blurred
+
+def canny_edges(cv_image):
+    return cv2.Canny(cv_image, threshold1=30, threshold2=100)
 
 def convert_to_binary(cv_image):
     ret, thresh = cv2.threshold(cv_image, 150, 255, cv2.THRESH_BINARY)
@@ -72,13 +78,16 @@ class VisionSubscriber(Node):
 
         bridge = CvBridge()
         try:
-            cv_image = bridge.imgmsg_to_cv2(ros_image, "mono8")
+            cv_image = bridge.imgmsg_to_cv2(ros_image, "bgr8")
             print(cv_image)
         except CvBridgeError as e:
             print(e)
 
-        show_image(process_image(cv_image))
-        
+        filtered_image = filter_image(cv_image)
+
+        show_image("Raw Image", cv_image)
+        show_image("Optimized Image", filtered_image)
+        show_image("Canny Edges", canny_edges(filtered_image))
         
 
 def main(args=None):
@@ -90,7 +99,7 @@ def main(args=None):
         vision_subscriber.destroy_node()
         rclpy.shutdown()
         cv2.destroyAllWindows()
-        print("Program is terminated :)")
+        print("\nProgram is terminated :)")
 
 if __name__ == "__main__":
     main()
